@@ -1,0 +1,127 @@
+@font-face {
+	font-family: "Yeseva One";
+	src: url("../fonts/YesevaOne-Regular.ttf");
+}
+
+body {
+	font-family: "Yeseva One";
+}
+
+.container {
+background-color: black;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: 1fr;
+}
+
+.flex {
+	display: flex;
+	flex-direction: column;
+}
+
+.smallfont {
+	font-size: 13px;
+	font-weight: 400;
+}
+
+.mediumfont {
+	font-size: 18px;
+	font-weight: 400;
+}
+.bigfont {
+	font-size: 27px;
+	font-weight: 400;
+}
+
+.brown {
+	color: #E3B873;
+}
+
+.white {
+	color: white;
+}
+
+.grid_item1 {
+	margin-left: 150px;
+	margin-top: 200px;
+}
+
+.minigrid {
+	margin-top: 50px;
+}
+
+.dot {
+	cursor: pointer;
+	height: 13px;
+	width: 13px;
+	margin: 0 2px;
+	background-color: #696969;
+	border-radius: 50%;
+	display: inline-block;
+}
+
+.dots {
+	margin-top: 100px;
+}
+
+dot:hover {
+	background-color: #717171;
+}
+
+.flex_row {
+	display: flex;
+	flex-direction: row;
+}
+.headline {
+	margin-top: 110px;
+}
+
+.headlines {
+	margin-right: 60px;
+}
+
+.eq {
+	margin-right: 20px;
+}
+
+.width {
+	width: 679px;
+	height: 1449px;
+}
+
+.images {
+	left: 0;
+	transition: all ease 0.7s;
+	padding: 0;
+	border: 0;
+	position: relative;
+}
+
+.overflow {
+	height: 483px;
+	overflow: hidden;
+	padding: 0;
+	border: 0;
+}
+
+.plus_height {
+	height: 800px;
+}
+
+.dotWhite {
+	cursor: pointer;
+	height: 13px;
+	width: 13px;
+	margin: 0 20 2 0px;
+	background-color: white;
+	border-radius: 50%;
+	display: inline-block;
+}
+
+.brownJS {
+	color: #E3B873;
+	text-decoration: underline;
+}
